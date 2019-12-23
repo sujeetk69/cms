@@ -14,9 +14,9 @@ foreach($db as $param_name => $param_value) {
 }
 
 
-$connection = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-if($connection) {
-    echo "DB Connected";
+$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+if($mysqli) {
+//    echo "DB Connected";
 }
 else {
     echo "DB Connection Error";
