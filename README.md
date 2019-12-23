@@ -1,4 +1,4 @@
-#PHP Training Project - CMS
+# PHP Training Project - CMS
 
 This is an web application being designed for blogging, mainly in software development and programming.
 Any suggestions and contributions are welcomed.
