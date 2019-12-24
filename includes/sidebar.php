@@ -27,7 +27,7 @@
           if($result = $mysqli->query($query)) {
             while($row = $result->fetch_assoc()) {
               echo "<li>
-                    <a href='#'>{$row['cat_title']}</a>
+                    <a href='#'>{$row['title']}</a>
                             </li>";
             }
           } 
